@@ -8,14 +8,14 @@ a {
 }
 
 /* @font-face {
-  font-family: 'Gilroy Semibold';
-  src: url('Gilroy-SemiBold.eot');
-  src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-  url('Gilroy-SemiBold.woff') format('woff'),
-  url('Gilroy-SemiBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  } */
+    font-family: 'Gilroy Semibold';
+    src: url('Gilroy-SemiBold.eot');
+    src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-SemiBold.woff') format('woff'),
+    url('Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    } */
 
 body {
   font-family: "Gilroy-Bold", sans-serif;
@@ -148,7 +148,6 @@ body {
   height: 94px;
   display: flex;
   align-items: center;
-
 }
 
 .bottom__key {
@@ -213,11 +212,11 @@ body {
   justify-content: flex-start;
 }
 
-.bl__icon__menu{
+.bl__icon__menu {
   display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 47px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
 }
