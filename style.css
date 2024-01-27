@@ -86,6 +86,23 @@ body {
   justify-content: flex-end;
 }
 
+.block__get {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background: #f25822;
+  color: #fff;
+
+  font-family: Gilroy-SemiBold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .menu {
   width: 556px;
   height: 40px;
@@ -145,9 +162,6 @@ body {
 
 .content__bottom {
   width: 374px;
-  height: 94px;
-  display: flex;
-  align-items: center;
 }
 
 .bottom__key {
@@ -156,7 +170,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 72px;
+  gap: 27px;
   padding-top: 52px;
 }
 
@@ -179,14 +193,18 @@ body {
 }
 
 .key2 {
-  width: 90px;
-  height: 19px;
   color: #aaa;
   font-family: Gilroy-Bold;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .content__play {
